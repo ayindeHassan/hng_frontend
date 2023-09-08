@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+main{
+    border: 1px solid #011c26;
+    margin: auto;
+    width: 90%;
+    max-width: 320px;
+    margin-top: 100px;
+    border-radius: 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 10px #1b4960;
+}
+.date p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.card-title{
+    height: 100px;
+    background-image: url("avatar_cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.card-title{
+    position: relative;
+}
+.card-title p{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-weight: 700;
+}
+img{
+    position: absolute;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    left: 40%;
+    bottom: -25px;
+}
+.card-content h1{
+    margin-top: 25px;
+}
+.card-content p{
+    margin: 3px 0;
+}
+a{
+    color:#011c26;
+    font-size: large;
+    font-weight: 600;
+}
+a:hover{
+    text-decoration: none;
+}

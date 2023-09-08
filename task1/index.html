@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="date">
+            <p>
+                It's another
+                <span data-testid="currentDayOfTheWeek">day of the week</span>
+            </p>
+            <p data-testid="currentUTCTime" style="margin-top:20px">Time in UTC: </p>
+        </div>
+        <div>
+            <div class="card-title">
+                <p>Profile</p>
+                <img src="avatar.jpg" alt="_hexCode" data-testid="slackDisplayImage">
+            </div>
+            <div class="card-content">
+                
+                <h1 data-testid="slackUserName">_hexCode</h1>
+                <p data-testid="myTrack">Frontend</p>
+                <p>
+                    <a href="https://github.com/ayindeHassan/hng_frontend" data-testid="githubURL">github</a>
+                </p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
