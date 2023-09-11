@@ -15,7 +15,7 @@ This is one page website that displays the profile page of a photographer, Make 
 
 ## Demo
 
-You can find the demo of this website from [profilecard](https://profilecard.vercel.app)
+You can find the demo of this website from [profilecard](https://profilecard-olive.vercel.app)
 
 ## Skills Achieved
 
